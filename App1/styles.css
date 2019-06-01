@@ -4,7 +4,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #CC6C5C;
+}
+
+body {
+  background-color: #FAF7B8;
 }
 
 li, a, button{
@@ -16,6 +19,7 @@ li, a, button{
 }
 
 header {
+  background-color: #CC6C5C;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,6 +27,7 @@ header {
 }
 
 h1 {
+  background-color: #CC6C5C;
   font-family: "Roboto Slab", serif;
   color: #edf0f1;
   text-decoration: none;
@@ -31,23 +36,28 @@ h1 {
 
 
 .logo {
+  background-color: #CC6C5C;
   cursor: pointer;
 }
 
 .nav__links{
+  background-color: #CC6C5C;
   list-style: none;
 }
 
 .nav__links li{
+  background-color: #CC6C5C;
   display: inline-block;
   padding: 0px 20px;
 }
 
 .nav__links li a{
+  background-color: #CC6C5C;
   transition: all 0.3s ease 0s;
 }
 
 .nav__links li a:hover{
+  background-color: #CC6C5C;
   color: #FAF7B8
 }
 
@@ -93,4 +103,34 @@ button:hover{
 
 .card button:hover {
   opacity: 0.7;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #CC6C5C;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #E4B48C;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #DDA67E;
+  padding: 20px;
 }
